@@ -1,0 +1,37 @@
+Buatkan kode lengkap untuk website 'one-page' (satu halaman penuh) bertema penyemangat dan humor untuk pacar yang sedang stres karena tugas akhir (artikel ilmiah) dan skor plagiasi AI yang terus meningkat.
+
+**Fokus dan Nada:** Sangat lembut, menghibur, dan personal, diselipi humor halus.
+
+**Detail Desain:**
+1.  **Tema Warna:** Dominan Pink Pastel (#F8C8DC) dan Putih Bersih.
+2.  **Font:** Gunakan 'Poppins' atau 'Roboto' dari Google Fonts.
+3.  **Tampilan:** Harus *fully responsive*.
+4.  **Keluaran:** Berikan kode **HTML tunggal** yang menyertakan CSS dalam tag <style>. Gunakan JavaScript yang minimalis untuk membuat tombol "3 fun fun fun fact" bekerja (menampilkan/menyembunyikan div).
+
+**Struktur Konten:**
+
+### Bagian 1: Header/Sapaan Awal
+* **Judul Besar:** "kita rehat sejenak yaaa"
+* **Sub-judul:** "jeda dulu dari kerjaan UT dan drillbit yg menyebalkan itu huh"
+
+### Bagian 2: Validasi Perasaan
+* **Judul:** "di baca ajaa yaa sayaang semoga lebih tenang walaupun ga akan bantu banyak"
+* **Konten (Teks):** Gunakan teks berikut secara persis: "aku tau kamu udah giat bgt sampe seharian dalam beberapa hari ini. dan skor plagiasi itu malah makin gajelas dan ngeselin ya. gapapa sayang, pasti ada jalan keluarnya walaupun susah. capek itu wajar bgt, nangis juga gapapa banget. kamu udah lakuin yg terbaik dan aku bangga bgt sama kamu dan mama papa kamu juga pasti bangga bgt sama kamu. ILYSM SAYAANGGG MWAAHHH - a BIG hug for oyeenn sayangkuu"
+
+### Bagian 3: Area Penyemangat (Foto Idol)
+* **Judul:** "nihh dari pacar kamu yg ganteng"
+* **Instruksi Gambar:** Buat elemen `<img>` dengan *placeholder* berukuran 735x977px (persegi panjang), dengan border Pink. Atribut `src` harus berisi instruksi: **"TEMPEL_LINK_FOTO_TAEHYUNG_LANGSUNG_DI_SINI"**.
+* **Teks Kecil di Bawah Gambar:** "tuuu liat yangg taehyung juga bangga sama kamu pasti dia seneng tuh kalo liat kamu, kata dia bilang 'hwaiting floren' btw aku dm dia bilang kamu ARMY sejati dan lagi bikin artikel tentang BTS ini"
+
+### Bagian 4: Tombol Aksi dan 3 Alasan (DYNAMIC)
+* **Tombol 1:** "jeda dulu nih dengerin yah" (Harus melakukan *smooth scroll* ke Bagian 5, id="music-section").
+* **Tombol 2:** "3 fun fun fun fact"
+    * Tombol ini harus menggunakan `onclick` untuk **menampilkan sebuah `<div>`** (`id="alasanHebat"`) yang awalnya tersembunyi (`display: none;`).
+    * Konten `<div>` tersembunyi tersebut berisi:
+        1. "kamu keren sehari aja bisa revisi terus kumpul, aku bangga banget sama kamu!"
+        2. "aku kangen terus deh sama kamu kenapa ya kamu ngangenin baget, keren kamu bikin aku kangen teruss."
+        3. "btw kamu ga pernah ga cantik alias cantik teruss!"
+
+### Bagian 5: Playlist/Music Section
+* **Judul:** "dengerin nih kedistract bentar biar goyang"
+* **Instruksi Embed:** Sisakan ruang (tinggi minimal 300px) untuk *embed* Spotify. Sertakan instruksi di area *embed* untuk menempelkan kode `<iframe>` Spotify: **"TEMPEL_KODE_IFRAME_SPOTIFY_DI_SINI"**.
